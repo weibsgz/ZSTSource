@@ -1,0 +1,683 @@
+{
+  "id": 1,
+  "name": "大金融",
+  "group": -1,
+  "children": [
+    {
+      "id": 2,
+      "name": "期货业",
+      "group": 3,
+      "children": [
+        {
+          "id": 20,
+          "name": "期货业1",
+          "children": []
+        },
+        {
+          "id": 21,
+          "name": "期货业2",
+          "children": []
+        },
+        {
+          "id": 22,
+          "name": "期货业3",
+          "children": []
+        },
+        {
+          "id": 23,
+          "name": "期货业4",
+          "children": []
+        },
+        {
+          "id": 24,
+          "name": "期货业5",
+          "children": []
+        },
+        {
+          "id": 25,
+          "name": "期货业6",
+          "children": []
+        },
+        {
+          "id": 26,
+          "name": "期货业7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "银行业",
+      "group": 3,
+      "children": [
+        {
+          "id": 27,
+          "name": "银行业1",
+          "children": []
+        },
+        {
+          "id": 28,
+          "name": "银行业2",
+          "children": []
+        },
+        {
+          "id": 29,
+          "name": "银行业3",
+          "children": []
+        },
+        {
+          "id": 30,
+          "name": "银行业4",
+          "children": []
+        },
+        {
+          "id": 31,
+          "name": "银行业5",
+          "children": []
+        },
+        {
+          "id": 32,
+          "name": "银行业6",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "交易所",
+      "group": 3,
+      "children": [
+        {
+          "id": 33,
+          "name": "交易所1",
+          "children": []
+        },
+        {
+          "id": 34,
+          "name": "交易所2",
+          "children": []
+        },
+        {
+          "id": 35,
+          "name": "交易所3",
+          "children": []
+        },
+        {
+          "id": 36,
+          "name": "交易所4",
+          "children": []
+        },
+        {
+          "id": 37,
+          "name": "交易所5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "其他金融服务",
+      "group": 3,
+      "children": [
+        {
+          "id": 38,
+          "name": "其他金融服务1",
+          "children": []
+        },
+        {
+          "id": 39,
+          "name": "其他金融服务2",
+          "children": []
+        },
+        {
+          "id": 40,
+          "name": "其他金融服务3",
+          "children": []
+        },
+        {
+          "id": 41,
+          "name": "其他金融服务4",
+          "children": []
+        },
+        {
+          "id": 42,
+          "name": "其他金融服务5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "小额贷款",
+      "group": 0,
+      "children": [
+        {
+          "id": 43,
+          "name": "小额贷款1",
+          "children": []
+        },
+        {
+          "id": 44,
+          "name": "小额贷款2",
+          "children": []
+        },
+        {
+          "id": 45,
+          "name": "小额贷款3",
+          "children": []
+        },
+        {
+          "id": 46,
+          "name": "小额贷款4",
+          "children": []
+        },
+        {
+          "id": 47,
+          "name": "小额贷款5",
+          "children": []
+        },
+        {
+          "id": 48,
+          "name": "小额贷款6",
+          "children": []
+        },
+        {
+          "id": 49,
+          "name": "小额贷款7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "信托业",
+      "group": 0,
+      "children": [
+        {
+          "id": 50,
+          "name": "信托业1",
+          "children": []
+        },
+        {
+          "id": 51,
+          "name": "信托业2",
+          "children": []
+        },
+        {
+          "id": 52,
+          "name": "信托业3",
+          "children": []
+        },
+        {
+          "id": 53,
+          "name": "信托业4",
+          "children": []
+        },
+        {
+          "id": 54,
+          "name": "信托业5",
+          "children": []
+        },
+        {
+          "id": 55,
+          "name": "信托业6",
+          "children": []
+        },
+        {
+          "id": 56,
+          "name": "信托业7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "其他未列明的金融服务",
+      "group": 0,
+      "children": [
+        {
+          "id": 57,
+          "name": "其他未列明的金融服务1",
+          "children": []
+        },
+        {
+          "id": 58,
+          "name": "其他未列明的金融服务2",
+          "children": []
+        },
+        {
+          "id": 59,
+          "name": "其他未列明的金融服务3",
+          "children": []
+        },
+        {
+          "id": 60,
+          "name": "其他未列明的金融服务4",
+          "children": []
+        },
+        {
+          "id": 61,
+          "name": "其他未列明的金融服务5",
+          "children": []
+        },
+        {
+          "id": 62,
+          "name": "其他未列明的金融服务6",
+          "children": []
+        },
+        {
+          "id": 63,
+          "name": "其他未列明的金融服务7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "证券业",
+      "group": 0,
+      "children": [
+        {
+          "id": 64,
+          "name": "证券业1",
+          "children": []
+        },
+        {
+          "id": 65,
+          "name": "证券业2",
+          "children": []
+        },
+        {
+          "id": 66,
+          "name": "证券业3",
+          "children": []
+        },
+        {
+          "id": 67,
+          "name": "证券业4",
+          "children": []
+        },
+        {
+          "id": 68,
+          "name": "证券业5",
+          "children": []
+        },
+        {
+          "id": 69,
+          "name": "证券业6",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "典当",
+      "group": 0,
+      "children": [
+        {
+          "id": 70,
+          "name": "典当1",
+          "children": []
+        },
+        {
+          "id": 71,
+          "name": "典当2",
+          "children": []
+        },
+        {
+          "id": 72,
+          "name": "典当3",
+          "children": []
+        },
+        {
+          "id": 73,
+          "name": "典当4",
+          "children": []
+        },
+        {
+          "id": 74,
+          "name": "典当5",
+          "children": []
+        },
+        {
+          "id": 75,
+          "name": "典当6",
+          "children": []
+        },
+        {
+          "id": 76,
+          "name": "典当7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "担保",
+      "group": 1,
+      "children": [
+        {
+          "id": 77,
+          "name": "担保1",
+          "children": []
+        },
+        {
+          "id": 78,
+          "name": "担保2",
+          "children": []
+        },
+        {
+          "id": 79,
+          "name": "担保3",
+          "children": []
+        },
+        {
+          "id": 80,
+          "name": "担保4",
+          "children": []
+        },
+        {
+          "id": 81,
+          "name": "担保5",
+          "children": []
+        },
+        {
+          "id": 82,
+          "name": "担保6",
+          "children": []
+        },
+        {
+          "id": 83,
+          "name": "担保7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "外汇、黄金交易服务",
+      "group": 1,
+      "children": [
+        {
+          "id": 84,
+          "name": "外汇、黄金交易服务1",
+          "children": []
+        },
+        {
+          "id": 85,
+          "name": "外汇、黄金交易服务2",
+          "children": []
+        },
+        {
+          "id": 86,
+          "name": "外汇、黄金交易服务3",
+          "children": []
+        },
+        {
+          "id": 87,
+          "name": "外汇、黄金交易服务4",
+          "children": []
+        },
+        {
+          "id": 88,
+          "name": "外汇、黄金交易服务5",
+          "children": []
+        },
+        {
+          "id": 89,
+          "name": "外汇、黄金交易服务6",
+          "children": []
+        },
+        {
+          "id": 90,
+          "name": "外汇、黄金交易服务7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "金融机具",
+      "group": 1,
+      "children": [
+        {
+          "id": 91,
+          "name": "金融机具1",
+          "children": []
+        },
+        {
+          "id": 92,
+          "name": "金融机具2",
+          "children": []
+        },
+        {
+          "id": 93,
+          "name": "金融机具3",
+          "children": []
+        },
+        {
+          "id": 94,
+          "name": "金融机具4",
+          "children": []
+        },
+        {
+          "id": 95,
+          "name": "金融机具5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "金融服务及创新业务",
+      "group": 1,
+      "children": [
+        {
+          "id": 96,
+          "name": "金融服务及创新业务1",
+          "children": []
+        },
+        {
+          "id": 97,
+          "name": "金融服务及创新业务2",
+          "children": []
+        },
+        {
+          "id": 98,
+          "name": "金融服务及创新业务3",
+          "children": []
+        },
+        {
+          "id": 99,
+          "name": "金融服务及创新业务4",
+          "children": []
+        },
+        {
+          "id": 100,
+          "name": "金融服务及创新业务5",
+          "children": []
+        },
+        {
+          "id": 101,
+          "name": "金融服务及创新业务6",
+          "children": []
+        },
+        {
+          "id": 102,
+          "name": "金融服务及创新业务7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "投资管理咨询服务",
+      "group": 1,
+      "children": [
+        {
+          "id": 103,
+          "name": "投资管理咨询服务1",
+          "children": []
+        },
+        {
+          "id": 104,
+          "name": "投资管理咨询服务2",
+          "children": []
+        },
+        {
+          "id": 105,
+          "name": "投资管理咨询服务3",
+          "children": []
+        },
+        {
+          "id": 106,
+          "name": "投资管理咨询服务4",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "会计、审计及税务服务",
+      "group": 2,
+      "children": [
+        {
+          "id": 107,
+          "name": "会计、审计及税务服务1",
+          "children": []
+        },
+        {
+          "id": 108,
+          "name": "会计、审计及税务服务2",
+          "children": []
+        },
+        {
+          "id": 109,
+          "name": "会计、审计及税务服务3",
+          "children": []
+        },
+        {
+          "id": 110,
+          "name": "会计、审计及税务服务4",
+          "children": []
+        },
+        {
+          "id": 111,
+          "name": "会计、审计及税务服务5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "财务公司服务",
+      "group": 2,
+      "children": [
+        {
+          "id": 112,
+          "name": "财务公司服务1",
+          "children": []
+        },
+        {
+          "id": 113,
+          "name": "财务公司服务2",
+          "children": []
+        },
+        {
+          "id": 114,
+          "name": "财务公司服务3",
+          "children": []
+        },
+        {
+          "id": 115,
+          "name": "财务公司服务4",
+          "children": []
+        },
+        {
+          "id": 116,
+          "name": "财务公司服务5",
+          "children": []
+        },
+        {
+          "id": 117,
+          "name": "财务公司服务6",
+          "children": []
+        },
+        {
+          "id": 118,
+          "name": "财务公司服务7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "基金业",
+      "group": 2,
+      "children": [
+        {
+          "id": 119,
+          "name": "基金业1",
+          "children": []
+        },
+        {
+          "id": 120,
+          "name": "基金业2",
+          "children": []
+        },
+        {
+          "id": 121,
+          "name": "基金业3",
+          "children": []
+        },
+        {
+          "id": 122,
+          "name": "基金业4",
+          "children": []
+        },
+        {
+          "id": 123,
+          "name": "基金业5",
+          "children": []
+        },
+        {
+          "id": 124,
+          "name": "基金业6",
+          "children": []
+        },
+        {
+          "id": 125,
+          "name": "基金业7",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "保险业",
+      "group": 2,
+      "children": [
+        {
+          "id": 126,
+          "name": "保险业1",
+          "children": []
+        },
+        {
+          "id": 127,
+          "name": "保险业2",
+          "children": []
+        },
+        {
+          "id": 128,
+          "name": "保险业3",
+          "children": []
+        },
+        {
+          "id": 129,
+          "name": "保险业4",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

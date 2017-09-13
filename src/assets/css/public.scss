@@ -1,0 +1,386 @@
+@import './variable';
+
+// 多选框样式 兼容性 IE9+
+input[type=checkbox],
+input[type=radio] {
+    display: none;
+}
+
+// 未选中的checkbox的样式
+i.checkbox:before,
+i.radio:before {
+    content: "\e6ab";
+    color: #77B2FD;
+}
+
+input[type=checkbox]:checked+i.checkbox:before,
+input[type=radio]:checked+i.radio:before {
+    content: "\e601";
+    color: #00A0E9;
+}
+
+
+// 自定义按钮样式
+.btn {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    @include animation;
+
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently */
+    // 确认按钮
+    &.confirm {
+        background: #eb572d;
+    }
+    &.confirm:hover {
+        background: #d33b12;
+    }
+    &.disable {
+        background-color: #c3c3c3;
+        cursor: no-drop;
+    } // 取消
+    &.cancel {
+        background: transparent;
+    } // 清空
+    &.emptied {
+        border: 1px solid #eb572d;
+    }
+    &.emptied:hover {
+        background: #d33b12;
+    }
+    &.modify {
+        background: #0070d9;
+        border: 1px solid #0070d9;
+        &:hover {
+            background: transparent;
+            // background: #0070d9;
+        }
+    }
+    &.submit {
+        background: #EB572D;
+        border: 1px solid #EB572D;
+        &:hover {
+            background: transparent;
+            // background: #d33b12;
+        }
+    }
+}
+
+
+// 自定义 input type=text 样式
+.input-text {
+    padding-left: 15px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #6389c2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    background: #013077;
+    outline: none;
+}
+
+
+// 自定义 elementui 的 样式
+$select-height: 30px; // 下拉框高度
+// 下拉框
+.el-select {
+    width: 142px;
+    height: $select-height;
+    .el-input__inner {
+        border: 1px solid #6389c2;
+        background: #013077;
+        outline: none;
+        color: #fff;
+        height: $select-height;
+    }
+    .el-input__icon {
+        color: #fd6541!important;
+        font-size: 12px;
+    } // .el-icon-caret-top:before {
+    // content: "\e619"!important;
+    // }
+}
+
+.el-select-dropdown {
+    border: 1px solid #6389c2;
+    background: rgba(0, 29, 74, 0.95);
+}
+
+.el-select-dropdown__item {
+    color: #fff;
+    &.hover {
+        background: rgba(0, 150, 255, .5);
+    }
+}
+
+
+
+// 自定义 element-ui 的 单选框样式
+.el-radio__label {
+    color: #fff;
+    font-size: $fz-sm;
+}
+
+.el-radio-button__inner {
+    font-size: 14px;
+    display: inline-block;
+    min-width: 48px;
+    text-align: center;
+    border: 1px solid #6389c2 !important;
+    background: #013077;
+    float: left;
+    outline: none;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-radius: 5px !important; // margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 0 0;
+    cursor: pointer;
+}
+
+.el-radio-button:first-child .el-radio-button__inner {
+    margin-left: 0;
+}
+
+.el-radio-button__inner:hover,
+.el-radio-button__orig-radio:checked+.el-radio-button__inner {
+    background: #0096ff;
+    border: 1px solid #0096ff;
+    color: #fff !important;
+    box-shadow: 0 0 0 0;
+}
+
+// 行业细分 按钮
+// <div class="industry-analysis">
+//     <span class="desc">行业分析：</span>
+//     <div class="btn-pop">
+//         <span type="text" class="input-text">农／林／牧／渔</span>
+//         <i class="iconfont icon-arrow-down"></i>
+//     </div>
+// </div>
+.industry-analysis {
+    @include flex();
+    .desc {
+        flex: 0 0 85px; // display: inline-block;
+        // width: 85px;
+    }
+    .btn-pop {
+        position: relative; // width: 145px;
+        flex: 0 0 auto;
+        min-width: 145px;
+    }
+    .input-text {
+        display: inline-block;
+        width: 100%;
+        padding-right: 20px;
+        box-sizing: border-box;
+        font-size: 14px;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    .iconfont {
+        position: absolute;
+        right: 6px;
+        top: 50%;
+        z-index: 999;
+        font-size: 12px;
+        transform: translate3d(0, -37%, 0);
+        color: $cl-text-red;
+    }
+}
+
+
+//分页组件样式
+.pagination-wrap {
+    display: flex;
+    align-items: center;
+
+}
+
+.el-pager li {
+    border: 0!important;
+    background: transparent;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    margin-top: 3px;
+}
+
+.el-pager {}
+
+
+.el-pager li.active {
+    background-color: #fd6541;
+    border-color: #fd6541;
+}
+
+.el-pagination .btn-next,
+.el-pagination .btn-prev {
+    background: transparent!important;
+    border: 0;
+}
+
+.el-pagination button.disabled {
+    background: transparent!important;
+}
+
+.el-pagination button,
+.el-pagination span {
+    color: #fff;
+}
+
+.el-pagination__editor {
+    padding: 0 4px
+}
+
+.pagenation-btn {
+    height: 24px;
+    line-height: 24px;
+    background: transparent!important;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 9px;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+
+
+// 弹窗样式
+// 弹窗大小的设置 是 通过 slot中 插入的内容 来控制的
+.el-dialog {
+    background-color: #14467d;
+    border-radius: 10px;
+    min-width: 400px;
+}
+
+.el-dialog--small {
+    width: auto
+}
+
+.el-dialog__header {
+    background-color: #3d7bbe;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.el-dialog__title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+    font-size: 12px;
+    color: #fff;
+}
+
+.el-dialog__footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px inset #346faf;
+}
+
+.el-dialog__footer .el-button {
+    padding: 5px 15px;
+}
+
+.el-dialog__body {
+    padding: 30px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.el-dialog__footer .el-button--primary {
+    background-color: #fd6541;
+    border-color: #fd6541;
+    &:hover{
+        background-color: #d33b12;
+    }
+}
+
+.el-dialog__footer .el-button--default {
+    background-color: rgba(16,54,101,1);
+    border-color: #77b2fd;
+    color: #77b2fd;
+    &:hover{
+        background-color: rgba(16,54,101,.4);
+    }
+}
+
+
+// 自定义 dataPicker 的样式// 日历组件样式
+.el-date-editor {
+    input {
+        cursor: pointer;
+    }
+    &.el-input {
+        width: 142px; // height: $select-height;
+    }
+    .el-input__inner {
+        height: $select-height;
+        border: 1px solid #6389c2;
+        background: #013077;
+        outline: none;
+        color: #fff;
+    }
+}
+
+.el-picker-panel {
+    border: 1px solid #6389c2;
+    background: rgba(0, 29, 74, 0.95);
+}
+
+.el-picker-panel {
+    color: #fff;
+}
+
+.el-date-table td.next-month,
+.el-date-table td.prev-month {
+    color: #456c96;
+}
+
+.el-date-table td.current:not(.disabled),
+.el-date-table td.end-date,
+.el-date-table td.start-date {
+    background-color: #20a0ff!important;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.el-date-table__row .available:hover {
+    background-color: #013670!important;
+    color: #fff;
+    border-radius: 3px;
+}
